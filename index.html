@@ -3,20 +3,47 @@
 	<head>
 		<title>My website test</title>
 		<meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/styles.css">
+
     </head>
 	<body>
         <header>
-            <div>LOGO</div>
-
+            <h1>This is a test website</h1>
         </header>
         <body>
-            <div>
-                <h1>This is a test website</h1>
-                <p>I am currently testing GitHub Pages</p>
-                <p> If I go through with my project, this page will be a description of the tool</p>
-                <a href="page_2_query.html">Click here to change page</a>
+            <div class="row">
+                <div class="column main">
+                    <h1>This is a test website</h1>
+                    <p>I am currently testing GitHub Pages</p>
+                    <p> If I go through with my project, this page will be a description of the tool</p>
+                    <a href="page_2_query.html">Click here to change page</a>
+                </div>
+                <div class="column side">
+                    <h2>This is a side bar that should receive a form in the future</h2>
+                    <form>
+                        <div>
+                            <h3>Dimension 1</h3>
+                            <label for="checkboxTemplate">Template checkbox:</label><br>
+                            <input type="checkbox" id="checkboxTemplate" name="Option 1"> Option 1
+                            <input type="checkbox" id="checkboxTemplate" name="Option 2"> Option 2
+                            <input type="checkbox" id="checkboxTemplate" name="Option 3"> Option 3
+                        </div>
+                        <div>
+                            <h3>Dimension 2</h3>
+                            <label for="radioTemplate">Template radio button:</label><br>
+                            <input type="radio" id="radioTemplate" name="Option 1"> Option 1
+                            <input type="radio" id="radioTemplate" name="Option 2"> Option 2
+                            <input type="radio" id="radioTemplate" name="Option 3"> Option 3
+                        </div>
+                        <input type="submit" value="Submit">
+                      </form>
+                </div>
+
             </div>
+
         </body>
-        <footer></footer>
+        <footer>
+            <div>There is text in the footer too</div>
+        </footer>
     </body>
 </html>
